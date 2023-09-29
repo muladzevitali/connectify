@@ -3,9 +3,9 @@ from typing import Optional, List, Tuple, Union
 
 from slack_sdk import WebClient, errors
 
-from datetime_services import current_timestamp_utc
-from slack_services.enums import SlackMessageResponseEnum
-from slack_services.errors import SlackNotAFutureDateException
+from connectify.datetime_services import current_timestamp_utc
+from connectify.slack_services.enums import SlackMessageResponseEnum
+from connectify.slack_services.errors import SlackNotAFutureDateException
 
 
 class SlackConnection:

@@ -1,3 +1,0 @@
-from error_services import NotAFutureDateException
-
-SlackNotAFutureDateException = NotAFutureDateException

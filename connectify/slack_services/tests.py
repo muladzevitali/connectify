@@ -3,10 +3,10 @@ import os
 import unittest
 from datetime import datetime, timezone
 
-from configuration_services import load_env_variables_from_file
-from datetime_services import current_timestamp_utc, timestamp_utc_before_n_seconds
-from file_services import TempFileWithContent
-from slack_services.slack_connection import SlackConnection
+from connectify.configuration_services import load_env_variables_from_file
+from connectify.datetime_services import current_timestamp_utc, timestamp_utc_before_n_seconds
+from connectify.file_services import TempFileWithContent
+from connectify.slack_services.slack_connection import SlackConnection
 
 
 class TestSlackConnection(unittest.TestCase):
