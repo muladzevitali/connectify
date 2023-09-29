@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setuptools.setup(
     name="connectify",
-    version="0.1.0",
+    version="0.1.2",
     author="Vitali Muladze",
     author_email="muladzevitali@gmail.com",
     description="Different Python I/O handlers",
