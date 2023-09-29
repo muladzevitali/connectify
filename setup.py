@@ -3,17 +3,15 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("requirements.txt") as f:
-    install_requires = f.read().splitlines()
-
 setuptools.setup(
     name="connectify",
-    version="0.1.0",
+    version="0.1.3",
     author="Vitali Muladze",
     author_email="muladzevitali@gmail.com",
     description="Different Python I/O handlers",
     long_description=long_description,
-    install_requires=install_requires,
+    install_requires=("slack_sdk==3.22.0",
+                      "python-dotenv==1.0.0"),
     long_description_content_type="text/markdown",
     url="https://github.com/muladzevitali/connectify",
     project_urls={
@@ -27,5 +25,6 @@ setuptools.setup(
     packages=("connectify",
               "connectify.slack_services"
               ),
+
     python_requires=">=3.8"
 )
