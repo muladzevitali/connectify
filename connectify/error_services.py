@@ -1,6 +1,6 @@
 from typing import Optional
 
-from datetime_services import current_timestamp_utc
+from connectify.datetime_services import current_timestamp_utc
 
 
 class NotAFutureDateException(Exception):
