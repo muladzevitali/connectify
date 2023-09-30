@@ -1,6 +1,6 @@
 # Connectify
 
-![Static Badge](https://img.shields.io/badge/version-0.1.5-green)
+![Static Badge](https://img.shields.io/badge/version-0.1.6-green)
 
 **Connectify** provides convenient Python interfaces to interact with popular **I**/**O** services such as **Slack**,
 **Facebook**, databases etc.
