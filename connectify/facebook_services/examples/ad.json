@@ -1,0 +1,50 @@
+{
+  "id": "2385982464280462",
+  "account_id": "8995660984784011",
+  "ad_active_time": "3099",
+  "adset": {
+    "id": "23859803253290462"
+  },
+  "adset_id": "23859801345190462",
+  "campaign": {
+    "id": "23859587098590462"
+  },
+  "campaign_id": "23859587095480462",
+  "configured_status": "ACTIVE",
+  "created_time": "2023-09-26T19:37:40+0400",
+  "creative": {
+    "id": "23859803723450462"
+  },
+  "effective_status": "ACTIVE",
+  "last_updated_by_app_id": "119211723544504",
+  "meta_reward_adgroup_status": "INACTIVE",
+  "name": "Vitali M.",
+  "preview_shareable_link": "https://fb.me/1UqOq7QHjQsz1St",
+  "source_ad_id": "0",
+  "status": "ACTIVE",
+  "tracking_specs": [
+    {
+      "action.type": [
+        "link_click"
+      ],
+      "post": [
+        "123524271244110"
+      ],
+      "post.wall": [
+        "1189164341209004"
+      ]
+    },
+    {
+      "action.type": [
+        "post_engagement"
+      ],
+      "page": [
+        "11891563409004"
+      ],
+      "post": [
+        "185426948244110"
+      ]
+    }
+  ],
+  "updated_time": "2023-09-26T19:48:34+0400"
+}

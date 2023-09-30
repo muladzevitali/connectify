@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "id": "23859423570380462",
+      "account_id": "89956548573784011",
+      "budget_rebalance_flag": false,
+      "budget_remaining": "0",
+      "buying_type": "AUCTION",
+      "campaign_group_active_time": "552",
+      "can_create_brand_lift_study": false,
+      "can_use_spend_cap": true,
+      "configured_status": "ACTIVE",
+      "created_time": "2023-09-26T20:18:42+0400",
+      "effective_status": "ACTIVE",
+      "has_secondary_skadnetwork_reporting": false,
+      "is_budget_schedule_enabled": false,
+      "is_skadnetwork_attribution": false,
+      "name": "Second traffic",
+      "objective": "OUTCOME_TRAFFIC",
+      "primary_attribution": "DEFAULT",
+      "smart_promotion_type": "GUIDED_CREATION",
+      "source_campaign_id": "0",
+      "special_ad_categories": [],
+      "special_ad_category": "NONE",
+      "start_time": "2023-09-26T20:18:43+0400",
+      "status": "ACTIVE",
+      "topline_id": "0",
+      "updated_time": "2023-09-26T20:18:42+0400"
+    },
+    {
+      "id": "23852134541190462",
+      "account_id": "8995098773784011",
+      "budget_rebalance_flag": false,
+      "budget_remaining": "0",
+      "buying_type": "AUCTION",
+      "campaign_group_active_time": "3231",
+      "can_create_brand_lift_study": false,
+      "can_use_spend_cap": true,
+      "configured_status": "ACTIVE",
+      "created_time": "2023-09-26T19:34:03+0400",
+      "effective_status": "ACTIVE",
+      "has_secondary_skadnetwork_reporting": false,
+      "is_budget_schedule_enabled": false,
+      "is_skadnetwork_attribution": false,
+      "name": "My test campaign",
+      "objective": "OUTCOME_TRAFFIC",
+      "primary_attribution": "DEFAULT",
+      "smart_promotion_type": "GUIDED_CREATION",
+      "source_campaign_id": "0",
+      "special_ad_categories": [],
+      "special_ad_category": "NONE",
+      "start_time": "2023-09-26T19:37:39+0400",
+      "status": "ACTIVE",
+      "stop_time": "2023-09-27T19:31:51+0400",
+      "topline_id": "0",
+      "updated_time": "2023-09-26T20:20:22+0400"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUnFLMFltV10XMGhsNWFndFN6ajVjeE5mLWYwQmtOdXBpbUlEM0J0eUJqRkF1UkQ3OC1IMHFPYUNEQXU1LUVucXFqOUtBZAlExOHhkT1pyaTdoZAjBjdjB3",
+      "after": "QVFIUjZAGY1tGLTlUNnhPcmkwVEdlQXV3OE1iWkJ1U2RmcnUzSHFlajNMTkw5cHV6aURqeEN5djVhN0FGNUdIa1NsY1lfeV9nUTJteUZA0am5uajZAIMERpNFV3"
+    }
+  }
+}
