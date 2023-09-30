@@ -5,6 +5,12 @@
 **Connectify** provides convenient Python interfaces to interact with popular **I**/**O** services such as **Slack**,
 **Facebook**, databases etc.
 
+## Installation
+You can install latest version of connectify via PiP:
+```shell
+pip install connectify
+```
+
 ## Slack services
 
 ### Supported actions
