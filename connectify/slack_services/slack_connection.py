@@ -166,7 +166,7 @@ class SlackConnection(BaseSlackConnection):
                           msg: Optional[str] = None,
                           channel_id: Optional[str] = None) -> str:
         """
-        send file to channel
+        Send file to channel
         :param file_path: local path to file.
         :param title: file title
         :param msg: text message to send along with file
@@ -306,7 +306,7 @@ class AsyncSlackConnection(BaseSlackConnection):
                                 msg: Optional[str] = None,
                                 channel_id: Optional[str] = None) -> str:
         """
-        send file to channel
+        Send file to channel
         :param file_path: local path to file.
         :param title: file title
         :param msg: text message to send along with file
