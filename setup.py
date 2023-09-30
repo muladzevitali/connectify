@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="connectify",
-    version="0.1.4",
+    version="0.1.5",
     author="Vitali Muladze",
     author_email="muladzevitali@gmail.com",
     description="Different Python I/O handlers",
@@ -17,7 +17,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/muladzevitali/connectify",
     project_urls={
-        "Bug Tracker": "https://github.com/muladzevitali/connectify/issuesL",
+        "Bug Tracker": "https://github.com/muladzevitali/connectify/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -25,7 +25,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     packages=("connectify",
-              "connectify.slack_services"
+              "connectify.slack_services",
+              "connectify.facebook_services"
               ),
 
     python_requires=">=3.8"
