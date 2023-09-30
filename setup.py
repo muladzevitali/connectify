@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="connectify",
-    version="0.1.3",
+    version="0.1.4",
     author="Vitali Muladze",
     author_email="muladzevitali@gmail.com",
     description="Different Python I/O handlers",
