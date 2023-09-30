@@ -12,6 +12,7 @@ setuptools.setup(
     long_description=long_description,
     install_requires=("slack_sdk==3.22.0",
                       "aiohttp==3.8.5",
+                      "facebook-sdk~=3.1.0",
                       "python-dotenv==1.0.0"),
     long_description_content_type="text/markdown",
     url="https://github.com/muladzevitali/connectify",

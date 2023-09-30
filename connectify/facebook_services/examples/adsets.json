@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "id": "23859234570420462",
+      "account_id": "899566125533784011",
+      "attribution_spec": [
+        {
+          "event_type": "CLICK_THROUGH",
+          "window_days": 1
+        }
+      ],
+      "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+      "billing_event": "IMPRESSIONS",
+      "budget_remaining": "76",
+      "campaign": {
+        "id": "23859808098480462"
+      },
+      "campaign_active_time": "0",
+      "campaign_attribution": "DEFAULT",
+      "campaign_id": "23859808234980462",
+      "configured_status": "ACTIVE",
+      "created_time": "2023-09-26T20:18:43+0400",
+      "daily_budget": "500",
+      "destination_type": "UNDEFINED",
+      "effective_status": "ACTIVE",
+      "is_budget_schedule_enabled": false,
+      "is_dynamic_creative": false,
+      "lifetime_budget": "0",
+      "lifetime_imps": 0,
+      "multi_optimization_goal_weight": "UNDEFINED",
+      "name": "Vitali Muladze",
+      "optimization_goal": "LINK_CLICKS",
+      "optimization_sub_event": "NONE",
+      "pacing_type": [
+        "standard"
+      ],
+      "recurring_budget_semantics": true,
+      "source_adset_id": "0",
+      "start_time": "2023-09-26T20:18:43+0400",
+      "status": "ACTIVE",
+      "targeting": {
+        "age_max": 65,
+        "age_min": 18,
+        "geo_locations": {
+          "countries": [
+            "CH"
+          ],
+          "location_types": [
+            "home",
+            "recent"
+          ]
+        },
+        "brand_safety_content_filter_levels": [
+          "FACEBOOK_STANDARD",
+          "AN_STANDARD"
+        ]
+      },
+      "targeting_optimization_types": [
+        {
+          "key": "detailed_targeting",
+          "value": 1
+        },
+        {
+          "key": "lookalike",
+          "value": 0
+        }
+      ],
+      "updated_time": "2023-09-26T20:18:43+0400",
+      "use_new_app_click": false
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "QVFIUmxpTXpGbVRFeUhKT1234fbFZA3dFA2TERTRFBQVXlVdmV1V1Q2LXhSSWdmT0l3SWlQYTA5VHQxRjdzOS1Sc2puNDkyZAlhIems1ZAHlIRW9ZAaEhjMWc0M1NB",
+      "after": "QVFIUmxpTXpGbVRFeUhKT2bFZA3dFA2TERTRFBQVXlVdmV1341Q24XhSSWdmT0l3SWlQYTA5VH4xRjdzOS1Sc2puNDkyZAlhIems3ZAHlIRW9ZAaEhjMWc0M1NB"
+    }
+  }
+}
