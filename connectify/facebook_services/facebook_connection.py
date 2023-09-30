@@ -3,14 +3,20 @@ from typing import Tuple, Optional, List
 import facebook
 
 
-class FBGraphAPI:
-    def __init__(self, app_id: str, secret: str, access_token: str = None, version="3.0"):
+class FacebookConnection:
+    def __init__(self, app_id: str = None, secret: str = None, access_token: str = None, version="3.0"):
         self.__api_version = version
         self.__app_id = app_id
         self.__app_secret = secret
         self.graph = facebook.GraphAPI(access_token=access_token, version=self.__api_version)
 
-    def get_login_url(self, redirect_url, scope) -> str:
+    def get_login_url(self, redirect_url: str, scope: str) -> str:
+        """
+        Generate login URL to fetch facebook access code (not access token)
+        :param redirect_url: redirect url in case of successful authorization
+        :param scope: permissions to ask to facebook
+        :return: login url to facebook
+        """
         login_url = self.graph.get_auth_url(
             app_id=self.__app_id,
             canvas_url=redirect_url,
@@ -19,10 +25,21 @@ class FBGraphAPI:
 
         return login_url
 
-    def get_ads_related_auth_url(self, redirect_url):
+    def get_ads_related_auth_url(self, redirect_url: str):
+        """
+        Generate login url for ads related permissions: email,ads_read,ads_management,pages_show_list,pages_manage_ads
+        :param redirect_url: redirect url in case of successful authorization
+        :return: login url to facebook
+        """
         return self.get_login_url(redirect_url, scope="email,ads_read,ads_management,pages_show_list,pages_manage_ads")
 
-    def get_access_token(self, code, redirect_uri) -> Tuple[str, int]:
+    def get_access_token(self, code: str, redirect_uri: str) -> Tuple[str, int]:
+        """
+        Generate access token for access code.
+        :param code: access code from get_ads_related_auth_url or get_login_url functions
+        :param redirect_uri: redirect url in case of successful authorization
+        :return: access token, expiration duration in seconds
+        """
         response = facebook.GraphAPI().get_access_token_from_code(
             app_id=self.__app_id,
             app_secret=self.__app_secret,
