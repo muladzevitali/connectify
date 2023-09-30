@@ -1,7 +1,7 @@
-# connectify
-Python project for multiple I/O connections
+# Connectify
+![Static Badge](https://img.shields.io/badge/version-0.1.4-green)
 
-Connectify provides convenient Python interfaces to interact with popular I/O technilogies such as Slack, Facebook, databases etc. 
+> Connectify provides convenient Python interfaces to interact with popular I/O technilogies such as Slack, Facebook, databases etc. 
 
 ## Slack services
 ### Supported actions
